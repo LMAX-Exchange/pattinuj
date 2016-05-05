@@ -1,6 +1,7 @@
 apply plugin: 'java'
 
 jar {
+    baseName='pattinuj'
     manifest {
         attributes 'Main-Class': 'com.lmax.pattinuj.JUnitTapCommandLineRunner'
     }
